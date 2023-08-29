@@ -5,14 +5,14 @@ This repository contains the official implementation of Multi-Scale Self-Attenti
 ## Requirements
 This repo requires the following:  
 `
-numpy==1.19.2
-pandas==1.3.5
-Pillow==9.2.0
-scipy==1.6.2
-torch==1.8.2
-torchvision==0.9.2
-opencv==4.6.0.66
-tensorboard 1.14
+numpy==1.19.2  
+pandas==1.3.5  
+Pillow==9.2.0  
+scipy==1.6.2  
+torch==1.8.2  
+torchvision==0.9.2  
+opencv==4.6.0.66  
+tensorboard 1.14  
 `
 
 ## Datasets
@@ -24,7 +24,7 @@ total, but considering that the cases in the category ”filed” are basically 
 for the background information, so it is discarded in DLRSD-4i, leaving only the following 16 segmentation targets. This
 dataset has a total of 7,002 images with 256 × 256 pixels. These 16 segmented object classes in the DLRSD-4i dataset
 are equally divided into 4 folds, 3 of which are used for training and 1 for testing. The DLRSD-4i dataset is small in
-scale and the scene differences are large, which puts forward strict requirements on the fast generalization ability of the fewshot segmentation algorithms.  
+scale and the scene differences are large, which puts forward strict requirements on the fast generalization ability of the few-shot segmentation algorithms.  
 ### iSAID-4i
 Yao et al. reintegrated the iSAID dataset according to the commonly used few-shot semantic segmentation paradigm and released the iSAID-5i dataset.
 To enrich the diversity of few-shot remote sensing image segmentation datasets, especially taking 4 categories as a split option, based on the iSAID-5i dataset, we added the
