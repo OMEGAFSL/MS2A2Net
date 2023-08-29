@@ -4,14 +4,14 @@ This repository contains the official implementation of Multi-Scale Self-Attenti
 
 ## Requirements
 This repo requires the following:  
-`numpy==1.19.2`
-`pandas==1.3.5`
-`Pillow==9.2.0`
-`scipy==1.6.2`
-`torch==1.8.2`
-`torchvision==0.9.2`
-`opencv==4.6.0.66`
-`tensorboard 1.14`
+`numpy==1.19.2`  
+`pandas==1.3.5`  
+`Pillow==9.2.0`  
+`scipy==1.6.2`  
+`torch==1.8.2`  
+`torchvision==0.9.2`  
+`opencv==4.6.0.66`  
+`tensorboard 1.14`  
 
 
 ## Datasets
