@@ -35,5 +35,21 @@ each split in the iSAID-4i dataset is shown in Table II. The iSAID-4i dataset ha
 and the other 12 categories are used for training. The large size and rich scenes of the iSAID-4i dataset impose stringent
 requirements on few-shot segmentation algorithms to deal with high inter-class similarity and large intra-class variability.  
 ### download
-You can download iSaid at this [Baidu Netdisk](https://pan.baidu.com/s/1geZuig2p_HwJgerFGHRG9w) by the password *3035*.  
+You can download iSAID at this [Baidu Netdisk](https://pan.baidu.com/s/1geZuig2p_HwJgerFGHRG9w) by the password *3035*.  
 You can also download DLRSD at this [Baidu Netdisk](https://pan.baidu.com/s/1oYovKl7eEAzgseTPGe16RQ) by the password *7002*.
+
+## Comparison method
+HSNet: <https://github.com/juhongm999/hsnet>  
+VAT: <https://github.com/Seokju-Cho/Volumetric-Aggregation-Transformer>  
+HDMNet: <https://github.com/Pbihao/HDMNet>  
+BAM: <https://github.com/chunbolang/BAM>  
+PFENet: <https://github.com/dvlab-research/PFENet>  
+
+## Evaluation
+### Comparison on the DLRSD-4i dataset
+![DLRSD-4i](https://github.com/OMEGAFSL/MS2A2Net/assets/110706904/64ce3dca-541e-497d-9600-6f0659a1eb66)
+### Comparison on the iSAID-4i dataset
+![iSAID-4i](https://github.com/OMEGAFSL/MS2A2Net/assets/110706904/96f82a5d-0161-4dc4-ab50-9624ce4c7179)
+
+
+
